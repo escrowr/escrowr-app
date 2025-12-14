@@ -72,7 +72,7 @@ export function Navbar() {
         </Link>
 
         {/* Tab Navigation */}
-        <nav className="hidden md:flex items-center space-x-1 bg-gray-50 rounded-2xl p-1">
+        <nav className="desktop-nav hidden md:flex items-center space-x-1 bg-gray-50 rounded-2xl p-1">
           {navigationTabs.map((tab) => {
             const isActive = activeTab === tab.id;
             const isHovered = hoveredTab === tab.id;
@@ -137,9 +137,9 @@ export function Navbar() {
             </div>
           ) : (
             <div className="flex items-center space-x-3">
-              <Button variant="ghost" size="sm" className="hidden sm:inline-flex">
+              {/* <Button variant="ghost" size="sm" className="hidden sm:inline-flex">
                 Sign In
-              </Button>
+              </Button> */}
               <Button variant="primary" size="sm">
                 <Icon icon="solar:login-3-bold" className="h-4 w-4 mr-2" />
                 Join Escrowr

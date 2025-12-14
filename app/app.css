@@ -110,3 +110,21 @@ body {
 .hero-overlay {
   background: linear-gradient(135deg, rgba(24, 24, 26, 0.8) 0%, rgba(24, 24, 26, 0.4) 100%);
 }
+
+/* Mobile navigation safe area */
+.h-safe-area-inset-bottom {
+  height: env(safe-area-inset-bottom, 0px);
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  /* Ensure content doesn't get hidden behind mobile nav */
+  .mobile-content-padding {
+    padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+  }
+  
+  /* Hide desktop navigation on mobile */
+  .desktop-nav {
+    display: none;
+  }
+}
