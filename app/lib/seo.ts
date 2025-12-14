@@ -14,18 +14,17 @@ export interface SEOConfig {
 }
 
 export const defaultSEO: SEOConfig = {
-  title: 'Escrowr - Secure Freelance Marketplace for Indonesia',
-  description: 'Platform escrow freelance berbasis Web3 untuk Indonesia. Aman, transparan, dan mudah digunakan dengan teknologi blockchain Base L2.',
+  title: 'Escrowr - Professional Freelance Network',
+  description: 'Connect with verified professionals through secure smart contract escrow. Transparent, reliable, and efficient freelance marketplace.',
   keywords: [
-    'freelance indonesia',
-    'escrow',
-    'web3',
-    'blockchain',
-    'base l2',
-    'idrx',
-    'secure payment',
-    'freelancer',
-    'marketplace'
+    'freelance marketplace',
+    'smart contract escrow',
+    'professional network',
+    'secure payments',
+    'verified freelancers',
+    'project management',
+    'talent marketplace',
+    'blockchain escrow'
   ],
   image: '/og-image.png',
   type: 'website',
@@ -99,16 +98,16 @@ export function generateMeta(config: Partial<SEOConfig> = {}): Array<{ title?: s
  */
 export const pageSEO = {
   home: {
-    title: 'Escrowr - Secure Freelance Marketplace for Indonesia',
-    description: 'Platform escrow freelance terpercaya untuk Indonesia. Dapatkan proyek berkualitas dengan pembayaran aman menggunakan teknologi blockchain Base L2 dan IDRX.',
+    title: 'Escrowr - Professional Freelance Network',
+    description: 'Connect with verified professionals through secure smart contract escrow. Find quality projects and talented freelancers in a transparent marketplace.',
     keywords: [
-      'freelance indonesia',
-      'marketplace freelancer',
-      'escrow aman',
-      'web3 indonesia',
-      'base blockchain',
-      'idrx payment',
-      'secure freelance',
+      'freelance marketplace',
+      'professional network',
+      'smart contract escrow',
+      'verified freelancers',
+      'secure payments',
+      'project marketplace',
+      'talent network',
       'blockchain escrow'
     ] as string[]
   },
