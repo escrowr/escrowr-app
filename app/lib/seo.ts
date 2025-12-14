@@ -114,8 +114,8 @@ export const pageSEO = {
   
   projects: {
     title: 'Browse Projects - Escrowr',
-    description: 'Temukan proyek freelance terbaik di Indonesia dengan sistem escrow yang aman dan transparan.',
-    keywords: ['proyek freelance', 'cari kerja', 'freelance indonesia', 'escrow project'] as string[]
+    description: 'Discover quality freelance projects with secure escrow payments. Find your next opportunity in our professional marketplace.',
+    keywords: ['freelance projects', 'remote work', 'project marketplace', 'secure escrow', 'professional opportunities'] as string[]
   },
   
   workers: {
